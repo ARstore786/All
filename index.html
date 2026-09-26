@@ -1,276 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>A&R | Digital Solutions</title>
-
-<link rel="stylesheet" href="ar.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A&R Store - Premium online destination for quality goods delivered across Pakistan.">
+  <title>A&R Store | Quality Goods Delivered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="topbar">🚚 Fast delivery across Pakistan &nbsp; • &nbsp; Cash on Delivery available</div>
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">A<span>&</span>R</div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="A&R Store home">
+        <img src="assets/logo.jpg" alt="A&R Store logo">
+        <span>A&R STORE</span>
+      </a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cart-pill" href="#products">🛒 Shop Now</a>
+    </div>
+  </header>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a href="#contact" class="nav-btn">Get Started</a>
-    </header>
-
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <p class="small-title">WELCOME TO A&R</p>
-
-            <h1>
-                Grow Your Business
-                <span>With Digital Solutions</span>
-            </h1>
-
-            <p class="hero-text">
-                A&R helps businesses grow through Digital Marketing,
-                Customer Dealing, Social Media Management and modern
-                online solutions.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#services" class="btn primary">Our Services</a>
-                <a href="#contact" class="btn secondary">Contact Us</a>
-            </div>
-
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">A&R STORE • ONLINE SHOP</span>
+          <h1>Premium products.<br><span>Simple shopping.</span></h1>
+          <p>Discover useful everyday products, beauty essentials and wellness accessories — delivered to your doorstep in Pakistan.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">Shop Products</a>
+            <a class="btn btn-outline" href="#contact">Contact Us</a>
+          </div>
+          <div class="trust-row">
+            <div><b>Rs. 1,500</b><small>Every product</small></div>
+            <div><b>COD</b><small>Cash on delivery</small></div>
+            <div><b>Fast</b><small>Local delivery</small></div>
+          </div>
         </div>
-
-        <div class="hero-card">
-            <div class="card-circle">A&R</div>
-
-            <h3>Digital Growth</h3>
-
-            <p>
-                Smart strategies for modern businesses.
-            </p>
-
-            <div class="stats">
-                <div>
-                    <strong>100+</strong>
-                    <small>Clients</small>
-                </div>
-
-                <div>
-                    <strong>24/7</strong>
-                    <small>Support</small>
-                </div>
-
-                <div>
-                    <strong>100%</strong>
-                    <small>Focus</small>
-                </div>
-            </div>
+        <div class="hero-art">
+          <div class="hero-card">
+            <img src="assets/logo.jpg" alt="A&R Store">
+            <div class="hero-card-badge">QUALITY GOODS<br>DELIVERED</div>
+          </div>
         </div>
-
+      </div>
     </section>
 
-
-    <!-- About -->
-    <section class="about" id="about">
-
-        <div class="about-image">
-            <div class="about-logo">A&R</div>
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">OUR COLLECTION</span>
+            <h2>Featured Products</h2>
+          </div>
+          <p>All listed products are <strong>Rs. 1,500</strong>. Select a product and place your order in seconds.</p>
         </div>
 
-        <div class="about-content">
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <img src="assets/waist-trainer.jpg" alt="Hot Shapers Waist Trainer">
+              <span class="sale-tag">Rs. 1,500</span>
+            </div>
+            <div class="product-body">
+              <span class="category">FITNESS & WELLNESS</span>
+              <h3>Hot Shapers Waist Trainer</h3>
+              <p>Adjustable waist support with a comfortable shaping design.</p>
+              <div class="card-bottom">
+                <strong>Rs. 1,500</strong>
+                <button class="btn small order-btn" data-product="Hot Shapers Waist Trainer">Order Now</button>
+              </div>
+            </div>
+          </article>
 
-            <p class="section-tag">ABOUT A&R</p>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="assets/chopper-1.jpg" alt="Multi-Function Vegetable Chopper">
+              <span class="sale-tag">Rs. 1,500</span>
+            </div>
+            <div class="product-body">
+              <span class="category">KITCHEN</span>
+              <h3>Multi-Function Vegetable Chopper</h3>
+              <p>Compact manual chopper for vegetables, herbs and everyday kitchen prep.</p>
+              <div class="card-bottom">
+                <strong>Rs. 1,500</strong>
+                <button class="btn small order-btn" data-product="Multi-Function Vegetable Chopper">Order Now</button>
+              </div>
+            </div>
+          </article>
 
-            <h2>
-                We Help Businesses
-                <span>Move Forward</span>
-            </h2>
+          <article class="product-card">
+            <div class="product-image">
+              <img src="assets/skin-care-1.png" alt="Complete Skin Care Bundle">
+              <span class="sale-tag">Rs. 1,500</span>
+            </div>
+            <div class="product-body">
+              <span class="category">BEAUTY CARE</span>
+              <h3>Complete Skin Care Bundle</h3>
+              <p>A curated beauty-care set presented as a complete home-care bundle.</p>
+              <div class="card-bottom">
+                <strong>Rs. 1,500</strong>
+                <button class="btn small order-btn" data-product="Complete Skin Care Bundle">Order Now</button>
+              </div>
+            </div>
+          </article>
 
-            <p>
-                A&R is focused on helping businesses build their online
-                presence and reach more customers through effective
-                digital strategies.
-            </p>
-
-            <p>
-                Our goal is to provide simple, professional and
-                result-oriented digital solutions.
-            </p>
-
-            <a href="#contact" class="btn primary">Learn More</a>
-
+          <article class="product-card">
+            <div class="product-image">
+              <img src="assets/back-support-1.jpeg" alt="Adjustable Back Support Belt">
+              <span class="sale-tag">Rs. 1,500</span>
+            </div>
+            <div class="product-body">
+              <span class="category">SUPPORT</span>
+              <h3>Adjustable Back Support Belt</h3>
+              <p>Breathable, adjustable support design for everyday posture support.</p>
+              <div class="card-bottom">
+                <strong>Rs. 1,500</strong>
+                <button class="btn small order-btn" data-product="Adjustable Back Support Belt">Order Now</button>
+              </div>
+            </div>
+          </article>
         </div>
 
+        <div class="gallery-strip">
+          <img src="assets/chopper-2.jpg" alt="Chopper use">
+          <img src="assets/chopper-3.jpg" alt="Chopper parts">
+          <img src="assets/skin-care-2.png" alt="Skin care products">
+          <img src="assets/back-support-2.png" alt="Back support belt">
+        </div>
+      </div>
     </section>
 
-
-    <!-- Services -->
-    <section class="services" id="services">
-
-        <div class="section-heading">
-            <p class="section-tag">WHAT WE DO</p>
-
-            <h2>Our <span>Services</span></h2>
-
-            <p>
-                Professional solutions designed to help your business grow.
-            </p>
-        </div>
-
-
-        <div class="service-container">
-
-            <div class="service-card">
-                <div class="icon">📱</div>
-
-                <h3>Digital Marketing</h3>
-
-                <p>
-                    Promote your products and services through effective
-                    digital marketing strategies.
-                </p>
-
-                <a href="#contact">Learn More →</a>
-            </div>
-
-
-            <div class="service-card">
-                <div class="icon">📢</div>
-
-                <h3>Social Media Ads</h3>
-
-                <p>
-                    Run targeted advertising campaigns to reach the
-                    right audience.
-                </p>
-
-                <a href="#contact">Learn More →</a>
-            </div>
-
-
-            <div class="service-card">
-                <div class="icon">💬</div>
-
-                <h3>Customer Dealing</h3>
-
-                <p>
-                    Professional customer communication and order
-                    handling through WhatsApp.
-                </p>
-
-                <a href="#contact">Learn More →</a>
-            </div>
-
-
-            <div class="service-card">
-                <div class="icon">🛒</div>
-
-                <h3>E-Commerce</h3>
-
-                <p>
-                    Online product selling solutions for businesses
-                    looking to grow.
-                </p>
-
-                <a href="#contact">Learn More →</a>
-            </div>
-
-        </div>
-
+    <section class="feature-band" id="why-us">
+      <div class="container feature-grid">
+        <div><span class="feature-icon">✓</span><div><h3>Quality Products</h3><p>Carefully presented products for everyday use.</p></div></div>
+        <div><span class="feature-icon">🚚</span><div><h3>Home Delivery</h3><p>Get your order delivered to your provided address.</p></div></div>
+        <div><span class="feature-icon">💵</span><div><h3>Cash on Delivery</h3><p>Convenient payment option for customers in Pakistan.</p></div></div>
+        <div><span class="feature-icon">🔒</span><div><h3>Easy Ordering</h3><p>Simple checkout form with your order details.</p></div></div>
+      </div>
     </section>
 
-
-    <!-- CTA -->
-    <section class="cta">
-
+    <section class="cta-section" id="contact">
+      <div class="container cta">
         <div>
-            <p class="section-tag">READY TO GROW?</p>
-
-            <h2>
-                Let's Build Something
-                <span>Great Together.</span>
-            </h2>
+          <span class="eyebrow">A&R STORE</span>
+          <h2>Ready to place your order?</h2>
+          <p>Choose your product and tap “Order Now”. Your customer details can be forwarded to the store email.</p>
         </div>
-
-        <a href="#contact" class="btn white">Get Started</a>
-
+        <button class="btn btn-primary" id="ctaOrder">Order Now • Rs. 1,500</button>
+      </div>
     </section>
+  </main>
 
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">A&R STORE</div>
+        <p>Your Premium Online Destination<br>Quality Goods Delivered.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Store Email</h4>
+        <a href="mailto:alphasasb58@gmail.com">alphasasb58@gmail.com</a>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> A&R Store. All rights reserved.</div>
+  </footer>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
+  <div class="modal" id="orderModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="close-modal" aria-label="Close">×</button>
+      <div class="modal-head">
+        <span class="eyebrow">PLACE YOUR ORDER</span>
+        <h2>Order Details</h2>
+        <p>Product price: <strong>Rs. 1,500</strong></p>
+      </div>
 
-        <div class="section-heading">
-            <p class="section-tag">CONTACT US</p>
+      <!-- FormSubmit forwards the submitted form to your store email.
+           On the first order, FormSubmit may ask you to confirm/activate the email. -->
+      <form id="orderForm" action="https://formsubmit.co/ajax/alphasasb58@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Order - A&R Store">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_replyto" id="hiddenReplyTo">
+        <input type="hidden" name="Product Price" value="Rs. 1,500">
+        <input type="hidden" name="Order Time" id="orderTime">
 
-            <h2>Let's <span>Talk</span></h2>
+        <label>Product
+          <select name="Product" id="productSelect" required>
+            <option>Hot Shapers Waist Trainer</option>
+            <option>Multi-Function Vegetable Chopper</option>
+            <option>Complete Skin Care Bundle</option>
+            <option>Adjustable Back Support Belt</option>
+          </select>
+        </label>
 
-            <p>
-                Have a project or business idea? Send us a message.
-            </p>
+        <div class="form-row">
+          <label>Quantity
+            <input type="number" name="Quantity" id="quantity" min="1" max="20" value="1" required>
+          </label>
+          <label>Customer Name
+            <input type="text" name="Customer Name" id="customerName" placeholder="Your full name" required>
+          </label>
         </div>
 
-
-        <form class="contact-form">
-
-            <input
-                type="text"
-                placeholder="Your Name"
-                required
-            >
-
-            <input
-                type="tel"
-                placeholder="Phone Number"
-                required
-            >
-
-            <input
-                type="email"
-                placeholder="Email Address"
-            >
-
-            <textarea
-                placeholder="Your Message"
-                rows="6"
-                required
-            ></textarea>
-
-            <button type="submit" class="btn primary">
-                Send Message
-            </button>
-
-        </form>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <div class="footer-logo">A<span>&</span>R</div>
-
-        <p>
-            © 2026 A&R. All Rights Reserved.
-        </p>
-
-        <div class="social">
-            <a href="#">Facebook</a>
-            <a href="#">TikTok</a>
-            <a href="#">Instagram</a>
+        <div class="form-row">
+          <label>Phone Number
+            <input type="tel" name="Phone" id="phone" placeholder="03XX XXXXXXX" required>
+          </label>
+          <label>Email
+            <input type="email" name="Customer Email" id="customerEmail" placeholder="you@example.com">
+          </label>
         </div>
 
-    </footer>
+        <label>Delivery Address
+          <textarea name="Delivery Address" id="address" rows="3" placeholder="House, street, area, city" required></textarea>
+        </label>
 
+        <label>Additional Note <span>(optional)</span>
+          <textarea name="Note" id="note" rows="2" placeholder="Color, size, or other note"></textarea>
+        </label>
+
+        <div class="total-box">
+          <span>Total</span>
+          <strong id="totalPrice">Rs. 1,500</strong>
+        </div>
+
+        <button class="btn btn-primary full" type="submit" id="submitOrder">Confirm Order • Rs. 1,500</button>
+        <p class="form-status" id="formStatus"></p>
+        <small class="form-note">By submitting, you agree that your order details will be sent to A&R Store for order processing.</small>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
